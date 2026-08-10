@@ -2,7 +2,7 @@ from app import calculate_discount, is_valid_email
 
 
 def test_calculate_discount_basic():
-    assert calculate_discount(100, 10) == 999
+    assert calculate_discount(100, 10) == 9999
 
 
 def test_calculate_discount_zero():
