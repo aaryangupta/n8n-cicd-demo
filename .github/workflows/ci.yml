@@ -35,7 +35,7 @@ jobs:
       - name: Notify n8n on success
         if: success()
         run: |
-          curl -X POST "https://railroad-involves-settlement-areas.trycloudflare.com/webhook/cicd-pipeline-event" \
+          curl -X POST "https://oliver-treasurer-monitor-changed.trycloudflare.com/webhook/cicd-pipeline-event" \
             -H "Content-Type: application/json" \
             -d '{
               "status": "success",
